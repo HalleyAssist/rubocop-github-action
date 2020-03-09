@@ -1,15 +1,16 @@
 {
-  "problemMatcher": [
-      {
-          "owner": "rubocop",
-          "pattern": [
-              {
-                  "regexp": "^(.+):(\\d+):(\\d+):\\s(C|W):\\s(.+)$",
-                  "file": 1,
-                  "line": 2,
-                  "column": 3,
-                  "message": 5
-              }
-          ]
-      }
-  ]
+    "problemMatcher": [
+        {
+            "owner": "rubocop",
+            "pattern": [
+                {
+                    "regexp": "^(.+):(\\d+):(\\d+):\\s(C|W):\\s(.+)$",
+                    "file": 1,
+                    "line": 2,
+                    "column": 3,
+                    "message": 5
+                }
+            ]
+        }
+    ]
+}
