@@ -1,8 +1,5 @@
 FROM ruby:2.7
 
-RUN addgroup -S rubocop
-RUN adduser -S -g rubocop rubocop
-
 RUN gem install rubocop
 
 ADD matchers.json /matchers.json

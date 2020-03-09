@@ -1,6 +1,6 @@
 #!/bin/sh -l
 
-gem install rubocop
+set -e
 
 cp /matchers.json .
 echo "::add-matcher::matchers.json"
