@@ -4,7 +4,7 @@
             "owner": "rubocop",
             "pattern": [
                 {
-                    "regexp": "^(.+):(\\d+):(\\d+):\\s(C|W):\\s(.+)$",
+                    "regexp": "^/github/workspace/(.+):(\\d+):(\\d+):\\s(C|W):\\s(.+)$",
                     "file": 1,
                     "line": 2,
                     "column": 3,
