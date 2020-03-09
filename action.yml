@@ -1,6 +1,9 @@
-name: 'Rubocop Action'
+name: 'Rubocop GitHub Action'
 description: 'GitHub Action for Rubocop'
 author: 'Zsolt Prontvai <prozsolt@gmail.com>'
+branding:
+  icon: 'alert-octagon'
+  color: 'red'
 runs:
   using: 'docker'
   image: 'Dockerfile'
