@@ -1,4 +1,4 @@
-FROM ruby:2.7
+FROM ruby
 
 RUN gem install rubocop
 
