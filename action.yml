@@ -1,0 +1,6 @@
+name: 'Rubocop Action'
+description: 'GitHub Action for Rubocop'
+author: 'Zsolt Prontvai <prozsolt@gmail.com>'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'

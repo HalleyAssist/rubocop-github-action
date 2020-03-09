@@ -1,2 +1,2 @@
 # rubocop-github-action
-Rubocop GitHub Action
+GitHub Action for Rubocop
